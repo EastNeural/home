@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EastNeural</title>
+  <link rel="stylesheet" href="file.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="shortcut icon" href="final_logo/0.25x/Asset 83@0.25x.png" type="image/x-icon">
+</head>
+<body>
+  <div class="all">
+    <div class="laoder"></div>
+    <header class="header" id="header" style="display: none;">
+      <div class="videoContainer" id="videoContainer">
+        <video id="video1" class="video-background" autoplay muted preload="auto">
+          <source src="./web_videos/home-1.mp4" type="video/mp4">
+        </video>
+        <video id="video2" class="video-background" muted  preload="none" style="display: none;">
+          <source src="./web_videos/home-2.mp4" type="video/mp4">
+        </video>
+        <video id="video3" class="video-background" muted style="display: none;" preload="none">
+          <source src="./web_videos/home-3.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="data-container">
+        <div class="talk">
+          <div class="contact">
+            <i class='bx bxs-phone' id="phone"></i>
+            <i class='bx bxs-envelope' id="mail"></i>
+            <i class='bx bxl-whatsapp' id="whatsapp"></i>
+          </div>
+          <div class="socialmedia">
+            <i class='bx bxl-facebook-circle' id="facebook"></i>
+            <i class='bx bxl-instagram-alt' id="instagram"></i>
+            <i class='bx bxl-linkedin' id="linkedin"></i>
+          </div>
+        </div>
+        <div class="navheader">
+          <div href="#" class="logo"><a href="./index.html"><img class="logo_img" src="./final_logo/4x/Asset 83@4x.png" alt="" srcset=""></a></div>
+          <div class="headermenu">
+            <i class='bx bx-menu' id="menu-icon"></i>
+          </div>
+        </div>
+        <nav class="navbar" id="navbar">
+          <a href="#Home" class="Home active" id="Home">Home</a>
+          <a href="#About" class="About" id="About">Company</a>
+          <a href="#working-domain" class="working-domain" id="Services">Working Domain</a>
+          <a href="#Projects" class="Projects" id="Project">Projects</a>
+          <a href="#our-team" class="our-team" id="Our-team">Our Team</a>
+          <a href="#Contact" class="Contact" id="Contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+    <section class="home-section" id="home-section" style="display: none;" >
+      <div class="home-container">
+        <div class="home-video-container">
+        </div>
+        <div class="home-data">
+          <img src="./final_logo/3x/Asset 83@3x.png" alt="laoding..." srcset="">
+          <button class="home-btn" id="talk-btn">Let's Talk <i class='bx bx-right-arrow-alt'></i></button>
+        </div>
+      </div>
+    </section>
+    <section class="talk-section" id="talk-section" style="display: none;">
+      <div class="talk-video">
+      </div>
+      <div class="talk-data">
+        <div class="talk-image-container">
+          <img class="talk-section-img" src="./web_images/talk.jpg" alt="laoding" srcset="">
+        </div>
+        <div class="workdomain-heading">
+          Way's of Talk
+        </div>
+        <div class="line-centerY"></div>
+        <div class="talk-links">
+          <div class="talk-phone talk-item" id="talk-phone">
+            <h1> <i class='bx bxs-phone' id="phone"></i></h1>
+            <h2>+923060508566</h2>
+            <p>Let's intract with us by phone number</p>
+          </div>
+          <div class="talk-mail talk-item" id="talk-mail">
+            <h1> <i class='bx bxs-envelope' id="mail"></i></h1>
+            <h2>ceo@eastneural.com | kf.official.uet@gamil.com</h2>
+            <p>Mail us!</p>
+          </div>
+          <div class="talk-whatsapp talk-item" id="talk-whatsapp">
+            <h1><i class='bx bxl-whatsapp' id="whatsapp"></i></h1>
+            <h2>+923060508566</h2>
+            <p>We are also available on whatsapp</p>
+          </div>
+          <div class="talk-telegram talk-item" id="talk-telegram">
+            <h1><i class='bx bxl-telegram'></i></h1>
+            <h2>+923060508566</h2>
+            <p>if we talk with telegram!</p>
+          </div>
+          <div class="talk-weChat talk-item" id="talk-wechat">
+            <h1><i class='bx bxs-message-rounded-dots'></i></h1>
+            <h2>+923060508566</h2>
+            <p>Let's chat with weChat.</p>
+          </div>
+          <div class="talk-facebook talk-item" id="talk-facebook">
+            <h1><i class='bx bxl-facebook-circle' id="facebook"></i></h1>
+            <h2>EastNeural</h2>
+            <p>Review our facebook page!</p>
+          </div>
+          <div class="talk-instagram talk-item" id="talk-instagram">
+            <h1><i class='bx bxl-instagram-alt' id="instagram"></i></h1>
+            <h2>EastNeural</h2>
+            <p>we are also on instagram.</p>
+          </div>
+          <div class="talk-linkedin talk-item" id="talk-linkedin">
+            <h1> <i class='bx bxl-linkedin' id="linkedin"></i></h1>
+            <h2>EastNeural</h2>
+            <p>See our company also on linkedin!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about-section" id="about-section" style="display: none;">
+      <div class="about-container">
+        <div class="about-video-container">
+          <video id="video4" class="video-background" muted loop preload="none">
+            <source src="./web_videos/about-1.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="about-heading">
+          <h1>Company</h1>
+        </div>
+        <div class="about-data">
+          <div class="about-item aboutus">
+            <h1>About Us</h1>
+            <p>Welcome to EastNeural, where innovation and creativity converge to shape the digital world of tomorrow.
+              As
+              a pioneering software house, we stand at the forefront of web development, artificial intelligence, and
+              Python-based software solutions. Our journey is guided by a passion for crafting exceptional digital
+              experiences that blend cutting-edge technology with user-centric design.</p>
+          </div>
+          <div class="about-item vision">
+            <h1>Vision</h1>
+            <p>At EastNeural, we see a world where web development, artificial intelligence, and Python-based solutions
+              come together to transform challenges into opportunities. Our focus is on creating user-friendly
+              innovations
+              that empower individuals and businesses, lighting the path for a more accessible and impactful digital
+              landscape.</p>
+          </div>
+          <div class="about-item mission">
+            <h1>Mission</h1>
+            <p>Our mission is to ignite evolution through constant innovation. From web development and artificial
+              intelligence to Python-based solutions, we envision a world where every facet of technology evolves. We
+              strive to be the driving force behind transformative advancements, creating a legacy of adaptability and
+              progress in all that we do. Our journey is marked by a commitment to pushing boundaries, empowering
+              change,
+              and shaping a future where evolution knows no bounds.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="workdomain-section" id="workdomain-section" style="display: none;">
+      <div class="workdomain-container">
+        <div class="workdomain-video-container">
+          <video id="video5" class="video-background" muted  loop preload="none">
+            <source src="./web_videos/services.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="workdomain-heading">
+          <h1>Services</h1>
+        </div>
+        <div class="workdomain-data">
+          <div class="services-container">
+            <div class="services-box">
+              <i class='bx bx-code-alt'></i>
+              <h3>Wed Development</h3>
+              <p>Our web development team builds modern, user-friendly websites using cutting-edge technology. We
+                transform your ideas into engaging online experiences, ensuring your digital presence shines. </p>
+              <div href="#" class="btn">Read More <a class='bx bx-right-arrow-alt'></a></div>
+            </div>
+            <div class="services-box">
+              <i class='bx bxl-nodejs'></i>
+              <h3>Node.js</h3>
+              <p>LNode.js powers our backend development. It's fast, scalable, and ideal for real-time applications. We
+                leverage Node.js to create robust, efficient server-side solutions for your projects. </p>
+              <div href="#" class="btn">Read More <a class='bx bx-right-arrow-alt'></a></div>
+            </div>
+            <div class="services-box">
+              <i class='bx bxl-html5'></i>
+              <h3>Frontend Develpor</h3>
+              <p>We craft stunning front-end interfaces with HTML, CSS, and JavaScript. Our designs are visually
+                appealing, responsive, and user-friendly, ensuring an exceptional user experience.</p>
+              <div href="#" class="btn">Read More<a class='bx bx-right-arrow-alt'></a></div>
+            </div>
+            <div class="services-box">
+              <i class='bx bxl-python'></i>
+              <h3>Python</h3>
+              <p>We harness the power of Python for versatile, efficient, and scalable solutions. Our Python experts
+                create custom software, data analysis tools, and automation scripts tailored to your needs.</p>
+              <div href="#" class="btn">Read More<a class='bx bx-right-arrow-alt'></a></div>
+            </div>
+            <div class="services-box">
+              <i class='bx bx-minus-front'></i>
+              <h3>Automation</h3>
+              <p>Using Selenium, we automate repetitive tasks, streamline workflows, and enhance testing efficiency. Our
+                Selenium automation solutions ensure accuracy and save valuable time in web applications and testing
+                processes.</p>
+              <div href="#" class="btn">Read More<a class='bx bx-right-arrow-alt'></a></div>
+            </div>
+            <div class="services-box">
+              <i class='bx bxl-mongodb'></i>
+              <h3>MongoDB</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, est voluptatem nulla impedit cumque
+                maxime
+                temporibus debitis fugit quaerat, assumenda aliquid blanditiis nostrum </p>
+              <div href="#" class="btn">Read More<a class='bx bx-right-arrow-alt'></a></div>
+            </div>
+            <div class="services-box">
+              <i class='bx bxl-react'></i>
+              <h3>React</h3>
+              <p>With React, we build dynamic, interactive user interfaces. Our React developers create engaging web
+                applications that provide seamless user experiences, delivering exceptional interactivity and
+                performance.
+              </p>
+              <div href="#" class="btn">Read More<a class='bx bx-right-arrow-alt'></a></div>
+            </div>
+            <div class="services-box">
+              <i class='bx bxs-microchip'></i>
+              <h3>AI</h3>
+              <p>AI will soon revolutionize industries. Stay ahead with our AI expertise. We develop cutting-edge AI
+                solutions for smarter decision-making and enhanced efficiency in your business operations.</p>
+              <div href="#" class="btn">Read More<a class='bx bx-right-arrow-alt'></a></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <section class="project-section" id="project-section" style="display: none;">
+      <div class="project-container">
+        <div class="project-video-container">
+          <video id="video6" class="video-background" muted loop preload="none">
+            <source src="./web_videos/d-proj.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="project-heading">
+          <h1>Projects</h1>
+          <div class="project-detail">
+            <div class="completed-projects">
+              <h3>Completed</h3>
+              <p>5+</p>
+            </div>
+            <div class="started-projects">
+              <h3>Started</h3>
+              <p>5+</p>
+            </div>
+            <div class="soon-projects">
+              <h3>Work Soon</h3>
+              <p>5+</p>
+            </div>
+          </div>
+        </div>
+        <div class="project-data">
+          <div class="completed-projects_">Completed Projects</div>
+          <div class="project-project-container">
+            <div class="project-box">
+              <i class='bx bx-code-alt'></i>
+              <h3>Wed Development</h3>
+              <p>We developed a single page portfolio website with html css and JavaScript with theme changing feature
+                and
+                with many other super designed icons and annimations you can see by click here!</p>
+              <video controls src="./____projects____/project_videos/project _1_video.mp4"
+                class="project_videos" preload="none"></video>
+              <div class="btn"><a href="./____projects____/c_proj_1/index.html" class="open_proj" target="_blank"
+                  rel="noopener noreferrer">See Project</a><a class='bx bx-right-arrow-alt'></a></div>
+            </div>
+            <style>
+              .open_proj {
+                color: #0ef;
+              }
+            </style>
+            <div class="project-box">
+              <i class='bx bxl-nodejs'></i>
+              <h3>Node.js Game</h3>
+              <p>We are created a dumy game using html css and node.js this is simplest false game just a use case of
+                node.js</p>
+              <video controls src="./____projects____/project_videos/project_2_video.mp4"
+                class="project_videos" preload="none"></video>
+              <div class="btn"><a href="./____projects____/c_proj_2/index.html" class="open_proj" target="_blank"
+                  rel="noopener noreferrer">See Project</a><a class='bx bx-right-arrow-alt'></a></div>
+            </div>
+            <div class="project-box">
+              <i class='bx bxl-html5'></i>
+              <h3>ChatApp with Socket.io</h3>
+              <p>This is a simplest chatApplication which is developed in html, css and javaScript as frontend and
+                Node.js worked as back-end </p>
+              <video controls src="./____projects____/project_videos/project_3_video.mp4"
+                class="project_videos" preload="none"></video>
+              <div class="btn"><a href="./____projects____/c_proj_2/index.html" class="open_proj" target="_blank"
+                  rel="noopener noreferrer">See Project</a><a class='bx bx-right-arrow-alt'></a></div>
+            </div>
+            <div class="project-box">
+              <i class='bx bx-code-alt'></i>
+              <h3>Wed Development</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, est voluptatem nulla impedit cumque
+                maxime
+                temporibus debitis fugit quaerat, assumenda aliquid blanditiis nostrum </p>
+              <div href="#" class="btn">Read More <a class='bx bx-right-arrow-alt'></a></div>
+            </div>
+            <div class="project-box">
+              <i class='bx bxl-nodejs'></i>
+              <h3>Node.js</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, est voluptatem nulla impedit cumque
+                maxime
+                temporibus debitis fugit quaerat, assumenda aliquid blanditiis nostrum </p>
+              <div href="#" class="btn">Read More <a class='bx bx-right-arrow-alt'></a></div>
+            </div>
+            <div class="project-box">
+              <i class='bx bxl-html5'></i>
+              <h3>Frontend Develpor</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, est voluptatem nulla impedit cumque
+                maxime
+                temporibus debitis fugit quaerat, assumenda aliquid blanditiis nostrum </p>
+              <div href="#" class="btn">Read More<a class='bx bx-right-arrow-alt'></a></div>
+            </div>
+          </div>
+          <div class="started-projects_">Started</div>
+          <div class="project-project-container">
+            <div class="project-box">
+              <i class='bx bxl-mongodb'></i>
+              <h3>MongoDB</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, est voluptatem nulla impedit cumque
+                maxime
+                temporibus debitis fugit quaerat, assumenda aliquid blanditiis nostrum </p>
+              <div href="#" class="btn">Read More<a class='bx bx-right-arrow-alt'></a></div>
+            </div>
+            <div class="project-box">
+              <i class='bx bxl-mongodb'></i>
+              <h3>MongoDB</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, est voluptatem nulla impedit cumque
+                maxime
+                temporibus debitis fugit quaerat, assumenda aliquid blanditiis nostrum </p>
+              <div href="#" class="btn">Read More<a class='bx bx-right-arrow-alt'></a></div>
+            </div>
+            <div class="project-box">
+              <i class='bx bxl-mongodb'></i>
+              <h3>MongoDB</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, est voluptatem nulla impedit cumque
+                maxime
+                temporibus debitis fugit quaerat, assumenda aliquid blanditiis nostrum </p>
+              <div href="#" class="btn">Read More<a class='bx bx-right-arrow-alt'></a></div>
+            </div>
+            <div class="project-box">
+              <i class='bx bx-code-alt'></i>
+              <h3>Wed Development</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, est voluptatem nulla impedit cumque
+                maxime
+                temporibus debitis fugit quaerat, assumenda aliquid blanditiis nostrum </p>
+              <div href="#" class="btn">Read More <a class='bx bx-right-arrow-alt'></a></div>
+            </div>
+            <div class="project-box">
+              <i class='bx bxl-nodejs'></i>
+              <h3>Node.js</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, est voluptatem nulla impedit cumque
+                maxime
+                temporibus debitis fugit quaerat, assumenda aliquid blanditiis nostrum </p>
+              <div href="#" class="btn">Read More <a class='bx bx-right-arrow-alt'></a></div>
+            </div>
+            <div class="project-box">
+              <i class='bx bxl-html5'></i>
+              <h3>Frontend Develpor</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, est voluptatem nulla impedit cumque
+                maxime
+                temporibus debitis fugit quaerat, assumenda aliquid blanditiis nostrum </p>
+              <div href="#" class="btn">Read More<a class='bx bx-right-arrow-alt'></a></div>
+            </div>
+          </div>
+          <div class="soon-projects_">Started Soon</div>
+          <div class="project-project-container project-started-soon">
+            <div class="project-box">
+              <i class='bx bxl-mongodb'></i>
+              <h3>MongoDB</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, est voluptatem nulla impedit cumque
+                maxime
+                temporibus debitis fugit quaerat, assumenda aliquid blanditiis nostrum </p>
+              <div href="#" class="btn">Read More<a class='bx bx-right-arrow-alt'></a></div>
+            </div>
+            <div class="project-box">
+              <i class='bx bxl-mongodb'></i>
+              <h3>MongoDB</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, est voluptatem nulla impedit cumque
+                maxime
+                temporibus debitis fugit quaerat, assumenda aliquid blanditiis nostrum </p>
+              <div href="#" class="btn">Read More<a class='bx bx-right-arrow-alt'></a></div>
+            </div>
+            <div class="project-box">
+              <i class='bx bxl-mongodb'></i>
+              <h3>MongoDB</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, est voluptatem nulla impedit cumque
+                maxime
+                temporibus debitis fugit quaerat, assumenda aliquid blanditiis nostrum </p>
+              <div href="#" class="btn">Read More<a class='bx bx-right-arrow-alt'></a></div>
+            </div>
+            <div class="project-box">
+              <i class='bx bx-code-alt'></i>
+              <h3>Wed Development</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, est voluptatem nulla impedit cumque
+                maxime
+                temporibus debitis fugit quaerat, assumenda aliquid blanditiis nostrum </p>
+              <div href="#" class="btn">Read More <a class='bx bx-right-arrow-alt'></a></div>
+            </div>
+            <div class="project-box">
+              <i class='bx bxl-nodejs'></i>
+              <h3>Node.js</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, est voluptatem nulla impedit cumque
+                maxime
+                temporibus debitis fugit quaerat, assumenda aliquid blanditiis nostrum </p>
+              <div href="#" class="btn">Read More <a class='bx bx-right-arrow-alt'></a></div>
+            </div>
+            <div class="project-box">
+              <i class='bx bxl-html5'></i>
+              <h3>Frontend Develpor</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, est voluptatem nulla impedit cumque
+                maxime
+                temporibus debitis fugit quaerat, assumenda aliquid blanditiis nostrum </p>
+              <div href="#" class="btn">Read More<a class='bx bx-right-arrow-alt'></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="team-section" id="team-section" style="display: none;">
+      <div class="team-container">
+        <div class="team-video-container">
+          <video id="video7" class="video-background" muted loop preload="none">
+            <source src="./web_videos/team-2.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="team-heading">
+          <h1>Our Team</h1>
+        </div>
+        <div class="team-data">
+          <div class="team-member member1">
+            <h1>CEO</h1>
+            <h2>Kashif Mehmood 1</h2>
+            <h3>Software Developer</h3>
+            <p>I'm a skilled software expert specializing in web development, both front-end and back-end, with a solid
+              grasp of Python programming. As the founder of a fresh software house, I'm dedicated to creating
+              user-friendly digital solutions that blend smart design with powerful functionality.</p>
+          </div>
+          <div class="team-member member2">
+            <h1>CEO</h1>
+            <h2>Kashif Mehmood 2</h2>
+            <h3>Software Developer</h3>
+            <p>I'm a skilled software expert specializing in web development, both front-end and back-end, with a solid
+              grasp of Python programming. As the founder of a fresh software house, I'm dedicated to creating
+              user-friendly digital solutions that blend smart design with powerful functionality.</p>
+          </div>
+          <div class="team-member member3">
+            <h1>CEO</h1>
+            <h2>Kashif Mehmood 3</h2>
+            <h3>Software Developer</h3>
+            <p>I'm a skilled software expert specializing in web development, both front-end and back-end, with a solid
+              grasp of Python programming. As the founder of a fresh software house, I'm dedicated to creating
+              user-friendly digital solutions that blend smart design with powerful functionality.</p>
+          </div>
+          <div class="team-member member4">
+            <h1>CEO</h1>
+            <h2>Kashif Mehmood 4</h2>
+            <h3>Software Developer</h3>
+            <p>I'm a skilled software expert specializing in web development, both front-end and back-end, with a solid
+              grasp of Python programming. As the founder of a fresh software house, I'm dedicated to creating
+              user-friendly digital solutions that blend smart design with powerful functionality.</p>
+          </div>
+          <div class="team-member member5">
+            <h1>CEO</h1>
+            <h2>Kashif Mehmood 5</h2>
+            <h3>Software Developer</h3>
+            <p>I'm a skilled software expert specializing in web development, both front-end and back-end, with a solid
+              grasp of Python programming. As the founder of a fresh software house, I'm dedicated to creating
+              user-friendly digital solutions that blend smart design with powerful functionality.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact-section" id="contact-section" style="display: none;">
+      <div class="contact-container">
+        <div class="contact-video-container">
+          <video id="video8" class="video-background" muted loop preload="none">
+            <source src="./web_videos/d-con.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="contact-heading">
+          <h1>Let's Connect</h1>
+        </div>
+        <div class="contact-data">
+          <form action="https://formspree.io/f/myyqjywk" method="POST">
+            <div class="input-box">
+              <input type="text" name="name" placeholder="Full Name" required>
+              <input type="email" name="email" placeholder="Email Address" id="client-mail" required>
+            </div>
+            <div class="input-box">
+              <input type="number" name="number" placeholder="Mobile number" id="Mobile-number" required>
+              <select type="text" name="region" placeholder="" id="client-mail-subject">
+                <option value="">Select a continent</option>
+                <option value="Africa">Africa</option>
+                <option value="Asia">Asia</option>
+                <option value="Europe">Europe</option>
+                <option value="North America">North America</option>
+                <option value="Oceania">Oceania</option>
+                <option value="South America">South America</option>
+              </select>
+
+            </div>
+            <textarea name="message" id="client-mail-body" cols="30" rows="10" placeholder="Your Message"
+              required></textarea>
+            <input type="submit" value="Send Message" class="contact-btn" id="send-mail">
+          </form>
+        </div>
+      </div>
+    </section>
+    <section id="footer-hider" style="display: none;"><i class='bx bxs-down-arrow-alt bx-tada' ></i></section>
+    <footer class="footer" id="footer" style="display: none;">
+      <p>&copy; 2023 <a href="./index.html">EastNeural</a> | <a id="footer-home" href="#">Home</a> | <a id="footer-about" href="#">Company</a> | <a id="footer-workdomain" href="#">workDomain</a> | <a id="footer-projects" href="#">projects</a> | <a id="footer-ourteam" href="#">OurTeam</a> | <a id="footer-contact" href="#">ContactUs</a> | <a id="footer-talk" href="#">talk</a>. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <script src="file.js"></script>
+  <script src="mainScript.js"></script>
+  <script src="backend.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+
+</html>
